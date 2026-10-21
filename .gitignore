@@ -1,0 +1,19 @@
+﻿# Airflow Logs
+logs/
+*.log
+
+# Data Lake Contents (keep directory, exclude files)
+datalake/*
+!datalake/.gitkeep
+data/landing/*
+!data/landing/.gitkeep
+data/staged/*
+!data/staged/.gitkeep
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+.DS_Store
